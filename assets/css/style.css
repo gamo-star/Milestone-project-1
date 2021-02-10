@@ -5,17 +5,21 @@
 /*-----------hero-image-------*/
 
 #tyler-pic{
-    background: url("../images/tyler-igor.jpg");
+    background: url(../images/tyler-concert.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
-    background-position: center;
-    margin: 30px;
-
-/*-----------navigation and title-------*/
+    min-height: 460px;
+    margin-top: 50px;
     
 }
-#title{
+
+/*-----------navigation and title-------*/
+header {
+    margin: 30px;
+}    
+
+#title #nav-list, h2 title{
     text-transform: uppercase;
     letter-spacing: 6px;
     float: left;
@@ -27,7 +31,7 @@
 #nav-list{
 list-style-type: none;
  float: right;
- margin-right: 30px;
+
 }
 
 
@@ -54,15 +58,21 @@ li a:hover{
     border-bottom: 1px solid;
 }
 
-#nav-list, h2 title{
-line-height: 75px;
-
-}
 
 .active{
 border-bottom: 1px solid;
 }
+.inline-top{
+    display: inline-block;
+}
+.right-float{
+    display: flex;
+    align-items: flex-end;
+}
 
+.right-inline{
+    display: inline-block;
+}
 /*-----------main body-------*/
 
 
