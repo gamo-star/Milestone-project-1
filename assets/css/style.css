@@ -11,73 +11,31 @@
     background-size: cover;
     min-height: 460px;
     margin-top: 50px;
+    margin: 40px;   
     
 }
 
 /*-----------navigation and title-------*/
-header {
-    margin: 30px;
-}    
 
-#title #nav-list, h2 title{
+
+.title{
     text-transform: uppercase;
     letter-spacing: 6px;
-    float: left;
     margin-left: 40px;
-    line-height:  75px;
     font-family: 'Lato', sans-serif;
-    color: rgb(4, 0, 241);
-}
-#nav-list{
-list-style-type: none;
- float: right;
-
+    color: rgb(44, 44, 46);
+    font-size: 30px;
+   
 }
 
 
-
-.navlink{
-    initial-letter: 10px;
-    font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
-
-}
-li{
-    display: inline;
-    
-}
-
-li a{
-text-decoration: none;
-letter-spacing: 6px;
-margin-right: 30px;
-color: rgb(4, 0, 241);
-}
-
-li a:hover{
-    border-bottom: 1px solid;
-}
-
-
-.active{
-border-bottom: 1px solid;
-}
-.inline-top{
-    display: inline-block;
-}
-.right-float{
-    display: flex;
-    align-items: flex-end;
-}
-
-.right-inline{
-    display: inline-block;
-}
 /*-----------main body-------*/
 
-
-
-
+.album-covers{
+    height: 300px;
+    width: 300px;
+   
+}
 /*-----------footer-------*/
 
 h5{
