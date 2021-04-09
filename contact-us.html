@@ -13,7 +13,7 @@
     
 <container>
     
-    <div class="row no-gutters">
+    <div class="row no-gutters sticky">
                     <div class="col">
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand title" href="index.html">TYLER, THE CREATOR 2021 TOUR</a>
@@ -22,16 +22,16 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
+        <li class="nav-item nav-bar">
           <a class="nav-link" aria-current="page" href="index.html">Home</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item nav-bar">
           <a class="nav-link" href="tour-dates.html">Tour Dates</a>
         </li>
-         <li class="nav-item">
-          <a class="nav-link active" href="tour-photos.html">Tour Photos</a>
+         <li class="nav-item nav-bar">
+          <a class="nav-link" href="tour-photos.html">Tour Photos</a>
         </li>
-         <li class="nav-item">
+         <li class="nav-item nav-bar">
           <a class="nav-link active" href="contact-us.html">Contact Us</a>
         </li>
       </ul>
@@ -42,24 +42,30 @@
                 </div>
  </container>
 </header>
-
+<section class="container-fluid">
+    <div class="col">
+        <div class="row">
+        <h1 class="sub-heading">Contact Us</h1>
 <form action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" name="exampleInputEmail1" aria-describedby="emailHelp" required>
+    <input type="email" class="form-control email-box" name="exampleInputEmail1" placeholder="Your Name" aria-describedby="emailHelp" required>
+     <label for="staticEmail" class="col-sm-2 col-form-label"></label>
+    <input type="email" class="form-control email-box" id="exampleInputEmail1" name="exampleInputEmail1" placeholder="Email Address" aria-describedby="emailHelp" required>
     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
   </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" name="exampleInputPassword1" required>
+  <div class="form-group">
+    
+    <textarea class="form-control message-us" id="exampleFormControlTextarea1" rows="5" placeholder="Message Us"></textarea>
   </div>
   <div class="mb-3 form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1" name="exampleCheck1" required>
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary">Send</button>
 </form>
 </div>
+</div>
+</section>
     <footer class="conainer-fluid" id="side-margin-foot light-bg-footer">
         <div class="row">
             <div class="col-sm-4">
